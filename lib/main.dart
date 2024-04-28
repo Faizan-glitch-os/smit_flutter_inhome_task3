@@ -16,14 +16,19 @@ class Task3 extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white60,
       appBar: AppBar(
-        title: const Center(child: Text('Task3')),
+        title: const Center(
+          child: Text('Task3'),
+        ),
       ),
       body: Center(
         child: Container(
           margin: const EdgeInsets.only(top: 100, bottom: 100),
           padding: const EdgeInsets.only(left: 50, right: 50),
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10), color: Colors.white),
+            border: Border.all(color: Colors.blue),
+            borderRadius: BorderRadius.circular(10),
+            color: Colors.white,
+          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
