@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Task3(),
-  ));
+  runApp(
+    const MaterialApp(
+      home: Task3(),
+    ),
+  );
 }
 
 class Task3 extends StatelessWidget {
